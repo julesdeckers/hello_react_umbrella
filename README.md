@@ -2,6 +2,10 @@
 
 [Source](https://betterprogramming.pub/phoenix-1-6-with-typescript-react-bea7f3a792d5)
 
+# Mermaid
+
+Mermaidjs Github intergration
+
 ```mermaid
 flowchart TD
   A[Deploy to production] --> B{Is it Friday?};

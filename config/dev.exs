@@ -3,7 +3,7 @@ import Config
 # Configure your database
 config :hello_react, HelloReact.Repo,
   username: "root",
-  password: "",
+  password: "root",
   hostname: "localhost",
   database: "hello_react_dev",
   show_sensitive_data_on_connection_error: true,

@@ -38,7 +38,7 @@ defmodule HelloReactWeb.Router do
     scope "/" do
       pipe_through :browser
 
-      live_dashboard "/dashboard", metrics: HelloReactWeb.Telemetry
+      live_dashboard "/dashboard", metrics: HelloReactWeb.Telemetry, ecto_repos: [MyApp.Repo]
     end
   end
 

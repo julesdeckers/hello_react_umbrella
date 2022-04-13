@@ -1,4 +1,4 @@
-# HelloReactWeb
+# HelloReactWeb app
 
 To start your Phoenix server:
 
